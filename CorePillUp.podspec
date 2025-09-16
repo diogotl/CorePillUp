@@ -11,6 +11,6 @@ Pod::Spec.new do |spec|
   spec.author       = { "Diogo" => "diogoteixeiralucas@pm.me" }
   spec.platform     = :ios, "13.0"
   spec.source       = { :git => "https://github.com/diogotl/CorePillUp.git", :tag => "#{spec.version}" }
-  spec.source_files = "Classes", "Classes/**/*.{h,m,swift}"
+  s.source_files  = 'CorePillUp/CorePillUp/Sources/**/*.{swift,h,m}'
   spec.exclude_files = "Classes/Exclude"
 end
